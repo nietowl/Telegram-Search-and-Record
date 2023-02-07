@@ -1,2 +1,2 @@
-# -Telegram-Search-and-Record-
+# Telegram-Search-and-Record
 The code is a script that performs a keyword search on the text of all messages in Telegram chats and groups, using the Telethon library. The search keywords are read from a "keywords.txt" file. The search results are then written to a CSV file "search_results.csv", including the username, message text, date, and the keyword that triggered the search result. The code uses asynchronous programming to perform multiple operations concurrently, improving efficiency and performance. The script connects to the Telegram API using the provided API ID and hash, and iterates through all chats to search for the keywords. Any exceptions that occur during the execution of the script are handled and printed.
